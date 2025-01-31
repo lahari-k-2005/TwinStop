@@ -1,0 +1,10 @@
+CREATE DATABASE TwinStop;
+
+CREATE TABLE user_details(
+    user_name VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50));
+
+CREATE TABLE travel_details(
+    date1 VARCHAR(50),
+    city VARCHAR(50),
+    time1 VARCHAR(10));
